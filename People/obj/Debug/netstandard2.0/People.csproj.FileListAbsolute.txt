@@ -1,0 +1,12 @@
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\bin\Debug\netstandard2.0\People.deps.json
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\bin\Debug\netstandard2.0\People.dll
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\bin\Debug\netstandard2.0\People.pdb
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\People.csprojAssemblyReference.cache
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\People.AssemblyInfoInputs.cache
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\People.AssemblyInfo.cs
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\People.csproj.CoreCompileInputs.cache
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\People.dll
+C:\Xamarin\Clone\mslearn-xamarin-store-data-sqlite\src\exercise1\start\People\obj\Debug\netstandard2.0\People.pdb

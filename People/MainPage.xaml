@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="People.MainPage"
+    >
+
+    <StackLayout>
+        <Frame BackgroundColor="#1280ff"  CornerRadius="0">
+            <Label Text="Ordering App" HorizontalTextAlignment="Center" FontFamily="Bold" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry x:Name="newPerson"
+           Placeholder="Enter Name" />
+        <Entry x:Name="newGender"
+           Placeholder="Enter Gender" />
+
+        <Entry x:Name="newTShirtSize"
+           Placeholder="Enter T-Shirt Size" />
+
+        <Entry x:Name="newDateOfOrder"  
+           Placeholder="Enter Date of Order" />
+
+        <Entry x:Name="newTShirt_Color"
+           Placeholder="Enter T-Shirt Color" />
+        
+        <Entry x:Name="newShipping_Address"
+           Placeholder="Enter Shipping Address" />
+
+        <Button Text="Add Order"
+           Clicked="OnNewButtonClicked" />
+
+        <Button Text="Get All Orders"
+           Clicked="OnGetButtonClicked" />
+
+        <ListView x:Name="peopleList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="30">
+                        <StackLayout Padding="5">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="0" />
+                                <Label Text="{Binding Gender}" Grid.Row="0" Grid.Column="1"/>
+                                <Label Text="{Binding TShirt_Size}" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="{Binding Date_of_Order}" Grid.Row="0" Grid.Column="3"/>
+                                <Label Text="{Binding TShirt_Color}" Grid.Row="0" Grid.Column="4"/>
+                                <Label Text="{Binding Shipping_Address}" Grid.Row="0" Grid.Column="5"/>
+                            </Grid>
+                            
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label x:Name="statusMessage"/>
+    </StackLayout>
+</ContentPage>
